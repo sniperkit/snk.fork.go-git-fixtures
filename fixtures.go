@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package fixtures
 
 import (
@@ -312,7 +317,7 @@ func Init() error {
 
 	for _, src := range srcs {
 		rf := filepath.Join(
-			src, "gopkg.in/src-d/go-git-fixtures.v3",
+			src, "github.com/snk.fork.go-git-fixtures.v3",
 		)
 
 		if _, err := os.Stat(rf); err == nil {
